@@ -418,17 +418,17 @@
             }
 
     function fbcBuyCreditsHelper(block_id){
-        var item_info = {"baseid":"3464219","basetype":"base"};
+        var item_info = {"baseid":"","basetype":"base"};
         cc.fbcBuyCredits(block_id,'fbcBuyCreditsCallback',0,'fblgo',null,'',variable_cost_params,item_info);
     }
 
     function upayBuyCreditsHelper(block_id) {
-        var item_info = {"baseid":"3464219","basetype":"base"};
+        var item_info = {"baseid":"","basetype":"base"};
         cc.upayBuyCredits(block_id, 'fbcBuyCreditsCallback', 0, 'fblgo', null, '', variable_cost_params, item_info);
     }
 
     function KXLBuyCreditsHelper(block_id) {
-        var item_info = {"baseid":"3464219","basetype":"base"};
+        var item_info = {"baseid":"","basetype":"base"};
         cc.KXLBuyCredits(block_id, 'fbcBuyCreditsCallback', 0, 'fblgo', null, '', variable_cost_params, item_info);
     }
 </script>
